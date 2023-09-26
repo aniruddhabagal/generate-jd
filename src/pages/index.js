@@ -95,9 +95,10 @@ export default function Home() {
         </div>
         <form onSubmit={handleSubmit} className="flex-none p-6">
           <div className="flex rounded-lg border border-gray-700 bg-gray-800">
-            <label className="text-white flex flex-col space-y-0">
-              Enter Job Role, Skills, Experience:{" "}
+            <label className="text-white m-[6px] py-2 ">
+              Enter Job Role, Skills & Experience:{" "}
             </label>
+
             <input
               type="text"
               className="flex-grow px-4 py-2 bg-transparent text-white focus:outline-none"
